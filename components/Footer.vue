@@ -16,35 +16,5 @@
   </footer>
 </template>
 <script>
-import { config } from '@/config.js'
-import commonMixin from '@/mixins/commonMixin.js'
-import * as Klaro from 'klaro'
-import { klaroConfig } from '@/klaro.config.js'
-Klaro.setup(klaroConfig)
-export default {
-  mixins: [commonMixin],
-  data() {
-    return {
-      config,
-      Klaro,
-    }
-  },
-  created() {
-    const vm = this
-    setInterval(function () {
-      const kusamaValidatorsNetwork = JSON.parse(
-        decodeURIComponent(localStorage.getItem('kusamaValidatorsNetwork'))
-      )
-      if (kusamaValidatorsNetwork) {
-        if (kusamaValidatorsNetwork.googleAnalytics) {
-          vm.$ga.enable()
-        } else {
-          vm.$ga.disable()
-        }
-      } else {
-        vm.$ga.disable()
-      }
-    }, 10000)
-  },
-}
+export default {}
 </script>
