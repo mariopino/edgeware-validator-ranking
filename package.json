@@ -1,14 +1,15 @@
 {
-  "name": "kusama-validator-resource-center",
+  "name": "edgeware-validator-ranking",
   "version": "1.0.0",
-  "description": "Validator resource center and ranking for Kusama",
+  "description": "Validator ranking for Edgeware",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Colm3na/kusama-validator-resource-center.git"
+    "url": "git+https://github.com/mariopino/edgeware-validator-ranking.git"
   },
   "keywords": [
     "blockchain",
+    "edgeware",
     "kusama",
     "polkadot",
     "substrate",
@@ -18,9 +19,9 @@
   "author": "Mario Pino Uceda",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Colm3na/kusama-validator-resource-center/issues"
+    "url": "https://github.com/mariopino/edgeware-validator-ranking/issues"
   },
-  "homepage": "https://github.com/Colm3na/kusama-validator-resource-center#readme",
+  "homepage": "https://github.com/mariopino/edgeware-validator-ranking#readme",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
