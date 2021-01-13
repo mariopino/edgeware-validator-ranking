@@ -1,16 +1,17 @@
 <template>
   <footer class="footer">
     <div class="container text-center text-muted">
-      &copy; {{ new Date().getFullYear() }} {{ capitalize(config.name) }} ·
-      <a href="https://kusama.network/privacy" target="_blank"
-        >Privacy Policy</a
+      Made with love by
+      <a href="https://polkastats.io" target="_blank">Polkastats</a> in La
+      Colmena Labs ·
+      <a
+        href="https://github.com/mariopino/edgeware-validator-ranking/"
+        aria-label="View source on GitHub"
+        title="View source code on GitHub"
+        target="_blank"
       >
-      ·
-      <a href="https://kusama.network/terms" target="_blank"
-        >Terms and Conditions</a
-      >
-      ·
-      <a href="#" @click.prevent="Klaro.show()">Cookie Settings</a>
+        <i class="fab fa-github"></i>View source code on GitHub
+      </a>
     </div>
   </footer>
 </template>

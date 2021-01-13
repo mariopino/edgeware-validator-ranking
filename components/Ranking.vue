@@ -68,7 +68,7 @@
           <JsonCSV
             :data="rankingJSON"
             class="csv-export mb-2"
-            name="kusama_validator_ranking.csv"
+            name="edgeware_validator_ranking.csv"
           >
             <font-awesome-icon icon="file-csv" />
             export to CSV file

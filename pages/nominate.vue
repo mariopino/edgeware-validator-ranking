@@ -146,7 +146,7 @@
             Extrinsic with hash {{ extrinsicHash }} was included in block
             <a
               v-b-tooltip.hover
-              :href="`https://kusama.polkastats.io/block/${blockHash}`"
+              :href="`https://edgeware.subscan.io/block/${blockHash}`"
               title="Check block information"
               target="_blank"
             >
