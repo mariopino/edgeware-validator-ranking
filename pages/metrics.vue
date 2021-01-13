@@ -63,32 +63,6 @@ export default {
           ],
         },
         {
-          id: 'address',
-          title: 'Address creation date',
-          description:
-            'The older the address is, the more trustable it might be. The best value (older address) between the validator stash address and its parent identity address will be used for rating this metric.',
-          rating: [
-            {
-              rating: 0,
-              description: 'addressCreationBlock >= (blockHeight / 4) * 3',
-            },
-            {
-              rating: 1,
-              description:
-                'addressCreationBlock > (blockHeight / 4) * 2 && addressCreationBlock <= (blockHeight / 4) * 3',
-            },
-            {
-              rating: 2,
-              description:
-                'addressCreationBlock > blockHeight / 4 && addressCreationBlock <= (blockHeight / 4) * 2',
-            },
-            {
-              rating: 3,
-              description: 'addressCreationBlock <= blockHeight / 4',
-            },
-          ],
-        },
-        {
           id: 'slashes',
           title: 'Slashes over time',
           description:

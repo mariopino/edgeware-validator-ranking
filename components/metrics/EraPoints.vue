@@ -23,14 +23,14 @@
     </div>
     <div class="description">
       <p v-if="rating === 2">
-        Above average! Validator got {{ percent.toFixed(2) }}% of the total era
+        Above average! Validator got {{ percent.toFixed(3) }}% of the total era
         points in the last week while average was
-        {{ average.toFixed(2) }}%<br />
+        {{ average.toFixed(3) }}%<br />
       </p>
       <p v-else>
-        Below average! Validator got {{ percent.toFixed(2) }}% of the total era
+        Below average! Validator got {{ percent.toFixed(3) }}% of the total era
         points in the last week while average was
-        {{ average.toFixed(2) }}%<br />
+        {{ average.toFixed(3) }}%<br />
       </p>
     </div>
   </div>

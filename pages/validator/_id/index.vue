@@ -76,33 +76,27 @@
               />
             </div>
             <div class="col-md-6 mb-5">
-              <Address
-                :account-id="validator.stashAddress"
-                :identity="validator.identity"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 mb-5">
               <Slashes
                 :slashes="validator.slashes"
                 :rating="validator.slashRating"
               />
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-6 mb-5">
               <Subaccounts
                 :rating="validator.subAccountsRating"
                 :cluster-members="validator.clusterMembers"
               />
             </div>
-          </div>
-          <div class="row">
             <div class="col-md-6 mb-5">
               <Nominators
                 :nominators="validator.nominators"
                 :rating="validator.nominatorsRating"
               />
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-6 mb-5">
               <EraPoints
                 :percent="validator.eraPointsPercent"
@@ -110,22 +104,20 @@
                 :rating="validator.eraPointsRating"
               />
             </div>
-          </div>
-          <div class="row">
             <div class="col-md-6 mb-5">
               <Commission
                 :commission="validator.commission"
                 :rating="validator.commissionRating"
               />
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-6 mb-5">
               <Payouts
                 :payout-history="validator.payoutHistory"
                 :rating="validator.payoutRating"
               />
             </div>
-          </div>
-          <div class="row">
             <div class="col-md-6 mb-5">
               <Governance
                 :council-backing="validator.councilBacking"
@@ -133,20 +125,8 @@
                 :rating="validator.governanceRating"
               />
             </div>
-            <div class="col-md-6 mb-5"></div>
           </div>
         </b-tab>
-        <!-- <b-tab title="Additional data">
-          <b-alert
-            show
-            dismissible
-            variant="info"
-            class="text-center py-3 glitch"
-          >
-            This information is unverified and provided by the validator
-          </b-alert>
-          <Additional :address="validator.stashAddress" />
-        </b-tab> -->
       </b-tabs>
     </div>
   </div>
@@ -155,10 +135,8 @@
 <script>
 import Identicon from '@/components/Identicon.vue'
 import Loading from '@/components/Loading.vue'
-// import Additional from '@/components/Additional.vue'
 import VerifiedIcon from '@/components/VerifiedIcon.vue'
 import Identity from '@/components/metrics/Identity.vue'
-import Address from '@/components/metrics/Address.vue'
 import Slashes from '@/components/metrics/Slashes.vue'
 import Subaccounts from '@/components/metrics/Subaccounts.vue'
 import Nominators from '@/components/metrics/Nominators.vue'
@@ -174,10 +152,8 @@ export default {
   components: {
     Identicon,
     Loading,
-    // Additional,
     VerifiedIcon,
     Identity,
-    Address,
     Slashes,
     Subaccounts,
     Nominators,
