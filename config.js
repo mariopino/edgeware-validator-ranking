@@ -2,7 +2,7 @@
 export const config = {
   name: 'edgeware',
   title: 'Validator resource center and ranking',
-  nodeWs: 'wss://mainnet1.edgewa.re',
+  nodeWs: 'wss://mainnet4.edgewa.re',
   denom: 'EDG',
   addressPrefix: 7,
   tokenDecimals: 18,
