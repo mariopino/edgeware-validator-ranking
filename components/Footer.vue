@@ -1,9 +1,10 @@
 <template>
   <footer class="footer">
     <div class="container text-center text-muted">
-      Made with love by
-      <a href="https://polkastats.io" target="_blank">Polkastats</a> in La
-      Colmena Labs ·
+      Made with ❤️ by
+      <a href="https://polkastats.io" target="_blank">Polkastats</a> in
+      <a href="https://www.colmenalabs.org/" target="_blank">La Colmena Labs</a>
+      ·
       <a
         href="https://github.com/mariopino/edgeware-validator-ranking/"
         aria-label="View source on GitHub"
@@ -12,6 +13,8 @@
       >
         <i class="fab fa-github"></i>View source code on GitHub
       </a>
+      ·
+      <nuxt-link to="/disclaimer">Disclaimer</nuxt-link>
     </div>
   </footer>
 </template>
