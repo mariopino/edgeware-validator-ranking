@@ -13,7 +13,7 @@ export const config = {
   identiconTheme: 'substrate',
   logo: 'img/logo/edgeware.png',
   favicon: 'img/favicon/edgeware.ico',
-  baseURL: '/edgeware-validator-ranking/',
+  baseURL: '/',
   showValSelectorInPage: false,
   googleAnalytics: 'G-Y501123SNX',
 }
