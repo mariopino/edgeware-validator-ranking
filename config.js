@@ -15,5 +15,5 @@ export const config = {
   favicon: 'img/favicon/edgeware.ico',
   baseURL: '/edgeware-validator-ranking/',
   showValSelectorInPage: false,
-  googleAnalytics: undefined,
+  googleAnalytics: 'G-Y501123SNX',
 }

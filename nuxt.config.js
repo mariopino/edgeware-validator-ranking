@@ -30,7 +30,7 @@ export default {
   css: [config.theme],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/vue-typed-text.js', '@/plugins/vue-analytics.js'],
+  plugins: ['@/plugins/vue-typed-text.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -50,6 +50,8 @@ export default {
     ],
     // https://github.com/nuxt-community/fontawesome-module
     '@nuxtjs/fontawesome',
+    // https://google-analytics.nuxtjs.org
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -74,6 +76,9 @@ export default {
       solid: true,
       regular: true,
     },
+  },
+  googleAnalytics: {
+    id: config.googleAnalytics,
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
