@@ -78,7 +78,6 @@ export default {
   },
   'google-gtag': {
     id: config.googleAnalytics,
-    debug: true, // enable to track in dev mode
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
