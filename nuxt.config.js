@@ -50,8 +50,6 @@ export default {
     ],
     // https://github.com/nuxt-community/fontawesome-module
     '@nuxtjs/fontawesome',
-    // https://google-analytics.nuxtjs.org
-    '@nuxtjs/google-analytics',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -66,6 +64,7 @@ export default {
     'nuxt-clipboard2',
     // https://www.npmjs.com/package/vue-scrollto
     'vue-scrollto/nuxt',
+    '@nuxtjs/google-gtag',
   ],
   bootstrapVue: {
     bootstrapCSS: false,
@@ -77,8 +76,9 @@ export default {
       regular: true,
     },
   },
-  googleAnalytics: {
+  'google-gtag': {
     id: config.googleAnalytics,
+    debug: true, // enable to track in dev mode
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
